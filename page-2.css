@@ -1,0 +1,171 @@
+*{
+  margin:0;
+padding:0;
+}
+
+@import url(//db.onlinewebfonts.com/c/b217ae71ad89ce82ac67e118aa9eecc2?family=Lulo+Clean);
+
+@font-face{
+      font-family:"Lulo-Clean-W01-One-Bold";
+      src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix");
+      src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
+  }
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  width:90%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+  align-items: center;
+  font-family: 'Spectral', serif;
+}
+
+.logo-pic{
+  width: 20%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 20%;
+  padding-top: 0px;
+  align-items: center
+}
+
+article{
+  padding: 0%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: white;
+  color: black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+article :hover{
+  color: #BEE6E8; 
+}
+h1{
+  margin:1%;
+}
+
+h2{
+  margin:1%;
+}
+
+.fullHome{
+  background-color: #BEE6E8;
+}
+
+.topHalf {
+  background-color: #BEE6E8;
+  margin: 0%;
+  padding: 0%;
+}
+
+.hereForYou {
+  display: flex;
+  justify-content: center;
+  padding-top: 7%;
+  padding-bottom: 0%;
+  font-size: 15.5px;
+  font-family:"Lulo-Clean-W01-One-Bold";
+ 
+}
+
+.financial {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  padding-top: -5%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family:"Lulo-Clean-W01-One-Bold";
+}
+
+.literacy {
+  display: flex;
+  justify-content: center;
+  font-size: 133px;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  font-family:"Lulo-Clean-W01-One-Bold";
+   
+}
+ 
+
+.learnMore {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 1%;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  background-color: #BEE6E8;
+  margin: 2%;
+}
+
+.intro{
+  text-align: center;
+  font-family: 'Spectral', serif;
+  padding: 2%;
+}
+
+.section-title{
+  width: 50%;
+  display: flex;
+  padding:2%;
+}
+
+.explore{
+  border: none;
+  background-color: white;
+  color: black;
+  font-family:'Spectral', serif;
+  width: 100px;
+  display: flex;
+  margin: auto;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+.explore :hover{
+  background-color: black;
+  color: white;
+}
+
+.bottomHalf{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.boxTitles {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  margin-top: 1%;
+  background-color: #B3E8EA;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-title{
+  height: 50%;
+  margin: auto;
+}
